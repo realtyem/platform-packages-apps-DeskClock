@@ -42,6 +42,6 @@ LOCAL_AAPT_FLAGS += --extra-packages com.android.messageformat
 
 LOCAL_PROGUARD_FLAG_FILES := ../../../frameworks/support/design/proguard-rules.pro
 
-LOCAL_PROGUARD_FLAG_FILES := proguard.flags
+LOCAL_PROGUARD_FLAG_FILES += proguard.flags
 
 include $(BUILD_PACKAGE)
